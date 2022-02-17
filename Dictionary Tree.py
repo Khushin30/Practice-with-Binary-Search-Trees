@@ -68,7 +68,6 @@ class BSTree:
                 return node
             else:
                 if not node.right and not node.left:
-                    print('hi')
                     return None
                 elif not node.right and node.left:
                     return node.left
